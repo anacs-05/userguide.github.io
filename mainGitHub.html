@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub - User Guide</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../github-logo.png" alt="GitHub logo" class="logo">
+            <h1>User Guide - GitHub</h1>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="mainGitHub.html">Home</a></li>
+            <li><a href="conta.html">Create Your Account</a></li>
+            <li><a href="project.html">Create Your First Project</a></li>
+            <li><a href="git.html">How to Configure Git</a></li>
+            <li><a href="glossary.html">Glossary</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Introdution to GitHub</h2>
+            <div class="content-box">
+                <p>GitHub is a cloud-based platform designed for storing, sharing, and collaborating on code with others. It hosts Git repositories and offers developers tools to enhance code quality, including command-line functions, issue tracking (for threaded discussions), pull requests, and code reviews.
+                   <br>The benefits of keeping your code in a GitHub "repository" include:
+                    </p>
+                <ul>
+                    <li>Displaying or sharing your work with others.</li>
+                    <li>Tracking and managing changes to your code over time.</li>
+                    <li>Allowing others to review your code and provide suggestions for improvement.</li>
+                    <li>Collaborating on a shared project without affecting your teammates work until you’re ready to merge your changes.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>GIT</h2>
+            <div class="content-box">
+                <p>Collaborative work is one of GitHub’s core features, made possible by the open-source software Git. Git is a version control system that efficiently tracks changes to files, forming the foundation on which GitHub is built. It’s especially valuable when multiple people are working on the same files simultaneously.
+                <br>Here are some key functions Git enables:
+                </p>
+                <ul>
+                    <li>Create a branch from the main version of the files that you and your collaborators are working on.</li>
+                    <li>Edit files independently and safely within your own branch.</li>
+                    <li>Allow Git to intelligently merge your specific changes back into the main version, preventing interference with others' updates.
+                    </li>
+                    <li>Track changes made by you and others, ensuring everyone works with the latest version of the project.
+                    </li>
+                </ul>
+
+                <p>A version control system (VCS) logs the history of changes as individuals and teams collaborate on projects, allowing you to see what was changed, by whom, and when. In a distributed version control system, each developer maintains a complete copy of the project and its history.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>How to Use Git + GitHub</h2>
+            <div class="content-box">
+                
+                <div class="img2">
+                    <img src="../gitgithub.png" alt="GitGitHublogo" class="logo2">
+                </div>
+                <p><br>Git and GitHub together form a powerful combination for software development. While they serve different purposes, they complement each other perfectly to support efficient project collaboration and version management.</p>
+                <p>When you upload files to GitHub, they’re stored in a “Git repository.” This means that as you make changes (or “commits”) to your files, Git automatically begins tracking and managing each modification.</p>
+                <p> The typical workflow with Git and GitHub involves working on your files locally (on your own computer) and then regularly syncing these changes — along with all related Git history — to a “remote” repository on GitHub. </p> 
+                <p> To learn more about how to use Git and GitHub and explore their features, keep exploring this site!</p>   
+            </div>
+        </section>
+        <footer class="rodape">
+            <p class="foot">FOR MORE INFORMATION VISIT <a href="https://docs.github.com/en">HTTPS://DOCS.GITHUB.COM/EN</a></p>
+        </footer>
+    </main>
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
